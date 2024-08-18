@@ -497,6 +497,15 @@
                 <artifactId>jdepend-maven-plugin</artifactId>
                 <version>2.0</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.24.0</version>
+                <configuration>
+                  <inputEncoding>utf-8</inputEncoding>
+                  <minimumTokens>100</minimumTokens>
+                </configuration>
+            </plugin>
         </plugins>
     </reporting>
 
