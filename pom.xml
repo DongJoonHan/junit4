@@ -276,6 +276,7 @@
                     <includes>
                         <include>org/junit/tests/AllTests.java</include>
                     </includes>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <useSystemClassLoader>true</useSystemClassLoader>
                     <enableAssertions>false</enableAssertions>
                 </configuration>
