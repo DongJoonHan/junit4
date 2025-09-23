@@ -93,7 +93,7 @@
     </distributionManagement>
 
     <properties>
-        <jdkVersion>1.5</jdkVersion>
+        <jdkVersion>1.8</jdkVersion>
         <surefireVersion>2.21.0</surefireVersion>
         <hamcrestVersion>1.3</hamcrestVersion>
         <enforcerPluginVersion>1.4</enforcerPluginVersion>
@@ -650,7 +650,7 @@
             </activation>
             <properties>
                 <!-- JDK 12 minimal source and target versions are 1.7 -->
-                <jdkVersion>1.7</jdkVersion>
+                <jdkVersion>8</jdkVersion>
                 <enforcerPluginVersion>3.0.0-M3</enforcerPluginVersion>
                 <jarPluginVersion>3.2.0</jarPluginVersion>
                 <javadocPluginVersion>3.2.0</javadocPluginVersion>
